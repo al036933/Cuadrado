@@ -1,11 +1,11 @@
 package es.cristian;
 
-public class Main {
 
+public class Main {
     public static void main(String[] args) {
-        for (int i = 0; i < 10; i++) {
-            for (int j = 0; j < 10; j++) {
-                System.out.print("0 ");
+        for (int i = 0; i < 4; i++) {
+            for (int j = 0; j < 5; j++) {
+                System.out.print(j + " ");
             }
             System.out.println();
         }
